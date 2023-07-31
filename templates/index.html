@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        
+        .container p {
+            margin-bottom: 15px;
+        }
+        
+        .container ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .prediction-form {
+            margin-top: 20px;
+        }
+        
+        .prediction-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .prediction-form input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .prediction-form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .prediction-result h2 {
+            margin-bottom: 10px;
+        }
+        
+        .prediction-result p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Diamond Price Predictor</h1>
+    </header>
+
+    <div class="container">
+        <section class="description">
+            <h2>Introduction About the Data:</h2>
+
+            <ul>
+                <li><strong>carat</strong>: Carat (ct.) refers to the unique unit of weight measurement used exclusively to weigh gemstones and diamonds.</li>
+                <li><strong>cut</strong>: Quality of Diamond Cut</li>
+                <li><strong>color</strong>: Color of Diamond</li>
+                <li><strong>clarity</strong>: Diamond clarity is a measure of the purity and rarity of the stone, graded by the visibility of these characteristics under 10-power magnification.</li>
+                <li><strong>depth</strong>: The depth of diamond is its height (in millimeters) measured from the culet (bottom tip) to the table (flat, top surface)</li>
+                <li><strong>table</strong>: A diamond's table is the facet which can be seen when the stone is viewed face up.</li>
+                <li><strong>x</strong>: Diamond X dimension</li>
+                <li><strong>y</strong>: Diamond Y dimension</li>
+                <li><strong>z</strong>: Diamond Z dimension</li>
+            </ul>
+            <p>
+                <strong>Target variable:</strong>
+            </p>
+            <ul>
+                <li><strong>price</strong>: Price of the given Diamond.</li>
+            </ul>
+        </section>
+
+
+</body>
+
+</html>
