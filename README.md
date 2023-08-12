@@ -1,4 +1,8 @@
-## End-to-End ML Project: Diamond-Price-Predictor
+## Industry-Standard Project: Diamond-Price-Predictor 
+
+## Project Flow:
+### Environment Setup-->setup.py-->ML_Pipeline-Modular_Coding_Methodology-->Flask(WebApp)-->Docker Image-->Container Registry(Azure)-->CI/CD Pipeline(GitHub Actions)-->Deployed on Microsoft Azure WebApp
+
 
 ### Problem Statement
 
@@ -7,7 +11,7 @@ To streamline this process and provide consumers, diamond merchants with more tr
 
 ### Project Title and Objectives:
 
-Welcome to the **Diamond Price Predictor** This project aims to build a machine learning model that predicts the price of a diamond based on various features such as carat, cut quality, color, clarity and more. This project follows a **modular coding approach** to ensure maintainability and extensibility. This means that the code is organized into independent modules that can be easily reused and modified.
+Welcome to the **Diamond Price Predictor** is an **industry-standard project** aims to build a machine learning model that predicts the price of a diamond based on various features such as carat, cut quality, color, clarity and more. This project follows a **modular coding approach** to ensure maintainability and extensibility. This means that the code is organized into independent modules that can be easily reused and modified.
 
 ### Technologies and Frameworks:
 **Python,** **Pandas,** **Numpy,** **Seaborn,**  **Scikit-learn,** **Flask**
@@ -22,23 +26,18 @@ By leveraging these technologies, frameworks and tools effectively, we ensure ef
 
 ### Project Flow
 
-#### Environment Setup:
+* #### Environment Setup:
 Created a Conda environment.
 #### setup.py file :
 
 The **setup.py** file is a critical component when it comes to packaging and distributing Python projects. It's used by tools like **setuptools** and **pip** to build, package, and install your project, making it available for distribution and installation across different environments..
 
-#### Data Ingestion 
-Data Cleaning Data Preprocessing:
-Performed exploratory data analysis (EDA) to understand the data.
-Ingested the data and performed necessary transformations.
+#### Implemented a modular ML pipeline including data ingestion, data transformation, model training, and evaluation.
 
-#### Model Training:
-Trained a machine learning model to predict diamond prices.
-Implemented a modular ML pipeline including data ingestion, data transformation, model training, and evaluation.
-
-#### Model Evaluation:
-Evaluated the model's performance using appropriate metrics.
+**Data Ingestion**
+**Data Preprocessing**
+**Exploratory Data Analysis(EDA): analyzed and visualized the data to understand the data.**
+**Model Training, Selection and Evaluation:** Trained a machine learning model using Linear Regression, Ridge, Lasso, ElasticNet to predict diamond prices.Evaluated the model's performance using appropriate metrics. Best Model: Linear Regression, R2 Score: 0.9362906819996044
 
 #### Web Application:
 Developed a Flask-based web application.
