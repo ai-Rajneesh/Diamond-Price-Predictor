@@ -1,7 +1,7 @@
 ## Industry-Standard Project: Diamond-Price-Predictor 
 
 ## Project Flow:
-**Environment Setup-->setup.py-->ML Pipeline-Modular Coding Methodology-->Flask(WebApp)-->Docker Image-->Container Registry(Azure)-->CI/CD Pipeline(GitHub Actions)-->Deployed on Microsoft Azure WebApp**
+**Environment Setup->setup.py->ML Pipeline-Modular Coding Methodology ->Flask Web Application->Docker Image Creation->Container Registry (Azure) ->CI/CD Pipeline (GitHub Actions)->Deployment on Azure WebApp**
 
 ## Introduction & Objectives:
 
@@ -13,8 +13,9 @@ Diamonds are highly valued gemstones, each possessing unique qualities that infl
 To streamline this process and provide consumers, diamond merchants with more transparency, my aim to develop a robust machine learning model that can predict the price of a diamond based on its features.
 
 
-### Technologies and Frameworks:
-**Python,** **Pandas,** **Numpy,** **Seaborn,**  **Scikit-learn,** **Flask**
+### 🛠️Libraries, Frameworks & Tools:
+Python, Pandas, Numpy, Seaborn, Scikit-learn, Flask, HTML/CSS
+VS Code, Git and GitHub, AnaConda, Docker, Azure Container Registry, CI/CD Pipeline(GitHub Actions), Microsoft Azure
 
 ### Tools:
 #### Visual Studio Code (VS Code): A popular and feature-rich code editor that provides a great development environment.
